@@ -1,49 +1,12 @@
-# Personal Library
+## Personal Library
 
-## Instructions
+## Purpose of the project
+The purpose of doing this assignment is to allow users to access and keep track of the books they read. This personal library will allow users to add books including their cover photos and author name. They will then be able to add notes on the book of their choosing. This allows the user to have a personal experience.
 
-### Phase 1 - Database
-- Create a database called library_db
-- Create 3 tables
-  - Authors
-    - firstName
-    - lastName
-  - Books
-    - title
-    - coverPhoto
-    - authorId
-  - Notes
-    - note
-    - bookId
+## How to use the project
+to use this application user needs to simply click add book and add in all columns. Hit add book once more and the new book should be added. You can also click my library to see the books that are currently in the personal library.
 
-### Phase 2 - Node/MySQL Connection
-- Create a connection to the database using mysql npm package
-- Create a class called DB with the following properties and methods: 
-  - Properties
-    - connection
-  - Methods
-    - getAllBooks
-    - getOneBook
-    - getBookNotes
-    - addBook
-    - addBookNote
-    - **deleteNote
-
-### Phase 3 - Setup Server
-- Create a localhost connection with express npm package
-- Setup Routes
-  - API Routes
-    - GET route for returning all books
-    - GET route for returning one book
-    - POST route for adding a book
-    - POST route for adding a book note
-    - DELETE route for deleting a note
-  - Test routes with POSTMAN
-  - HTML Routes
-    - /
-    - /library
-    - /addBook
-    - /bookDetail
-  
-### Phase 4 - Connect Client Side to Server
-  - Use AJAX to hit all API routes
+## Code highlights
+A highlight in this project is the add book function.
+## Areas of improvement
+An area of improvement is that the author id is something i was having difficulty with. It is not rendering the author properly and wont allow me to add new athors.
